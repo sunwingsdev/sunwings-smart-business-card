@@ -1,0 +1,49 @@
+.your_order_item{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #fcfbfb;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.your_order_item img{
+  max-width: 100px;
+}
+.order_text h2{
+  margin-bottom: 6px;
+}
+.order_text span{
+  font-size: 22px;
+}
+.subtotalContain{
+  display: flex;
+  justify-content: space-between;
+}
+.subtotalItem{
+  padding: 20px;
+  background: #fcfbfb;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.subtotalItem label {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.subtotalItem label span{
+  font-size: 14px;
+}
+.subtotalItem .form-check-input:checked {
+  background-color: rgb(255, 149, 0);
+  border-color: #ffd100;
+}
+.totalAmount {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  border-top: 1px solid #000000;
+}
+.totalAmount p{
+  font-size: 16px;
+  font-weight: 600;
+}

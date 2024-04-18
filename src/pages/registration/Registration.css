@@ -1,0 +1,121 @@
+.registration fieldset {
+  background: rgb(255, 255, 255);
+  border: 0 none;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-card {
+  text-align: left;
+}
+
+.registration fieldset:not(:first-of-type) {
+  display: none;
+}
+
+.registration select,
+.registration input,
+.registration textarea {
+  padding: 8px 15px 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  margin-bottom: 25px;
+  margin-top: 2px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2c3e50;
+  background-color: #eceff1;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.phoneInput {
+  padding: 8px 15px 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 0px !important;
+  margin-bottom: 25px;
+  /* margin-top: 2px !important; */
+  width: 100% !important;
+  height: 100% !important;
+  box-sizing: border-box !important;
+  font-family: montserrat;
+  color: #2c3e50 !important;
+  background-color: #eceff1 !important;
+  font-size: 16px !important;
+  letter-spacing: 1px !important;
+}
+
+.registration select:focus,
+.registration input:focus,
+.registration textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #ff7c15;
+  outline-width: 0;
+}
+
+.registration .action-button {
+  width: 100px;
+  background: #ff7c15;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 0px 10px 5px;
+  float: right;
+}
+
+.countrySelect {
+  width: 40% !important;
+  font-size: 14.8px !important;
+  height: 100% !important;
+}
+
+.registration .action-button:hover,
+.registration .action-button:focus {
+  background-color: #e47d2d;
+}
+
+.registration .action-button-previous {
+  width: 100px;
+  background: #616161;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px 10px 0px;
+  float: right;
+}
+
+.registration .action-button-previous:hover,
+.registration .action-button-previous:focus {
+  background-color: #000000;
+}
+
+.card {
+  background: #ff7c15;
+}
+
+.fieldlabels {
+  color: gray;
+  text-align: left;
+}
+.chackbox_input {
+  display: flex;
+  gap: 10px;
+}
+.chackbox_input input {
+  width: 20px;
+  height: 20px;
+}

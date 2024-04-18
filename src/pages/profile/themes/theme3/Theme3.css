@@ -1,0 +1,248 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+.header_area .container,
+.contact_area .container,
+.footer_area .container{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.contact_area .container{
+  width: 90%;
+}
+.save_btn {
+  font-size: 14px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: #fff;
+  background: rgb(34, 117, 1);
+  font-weight: 600;
+  transition: all 360ms ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.save_btn:hover{
+  color: #fff;
+  background: rgb(25, 85, 1);
+}
+.them_text_16 {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding: 4px 18px;
+  border-radius: 20px;
+  color: #fff;
+  background: red;
+  font-weight: 600;
+  transition: all 360ms ease;
+}
+.them_text_16:hover{
+  color: #fff;
+  background: rgb(179, 3, 3);
+}
+.them_text_26{
+  font-size: 26px;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.them_text_36{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  margin: auto;
+  color: #fff;
+  font-family: 'Abril Fatface', cursive;
+  text-shadow: 5px 4px 11px rgb(122 77 9), 0 2px 5px rgb(92 56 7);
+}
+.theme_text_40{
+  font-size: 40px;
+  font-weight: 600;
+  text-shadow: 2px 4px 4px rgb(131 150 183 / 60%);
+  color: #000000;
+}
+.header_bg_img{
+  padding: 148px 50px;
+  background: url(../../../../assets/images/theme3/banner.jpeg) no-repeat scroll center center / cover;
+  border: 4px solid #df6300;
+}
+.header_contain {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+.header_img_left{
+  position: relative;
+}
+.header_img_left::after {
+  content: '';
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 54%;
+  height: 8px;
+  background: #ff7a00;
+}
+.header_img_left::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -6px;
+  width: 8px;
+  height: 50%;
+  background: #ff7a00;
+}
+.header_img_left img {
+  max-width: 200px;
+  max-height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header_social_icon {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+}
+.theme3_icon {
+  font-size: 30px;
+}
+.icon_facebook{
+  color: #003cff;
+}
+.icon_whatsapp{
+  color: #177c00;
+}
+.icon_linkedin{
+  color: #2626f2;
+}
+.icon_twitter{
+  color: #05b3de;
+}
+.theme_chart ul{
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+.theme_chart ul li{
+  padding: 6px;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background: red;
+  border-radius: 20px;
+}
+.message_bg{
+  background: #177c00 !important;
+}
+.theme3_faq{
+  margin-top: 36px;
+  max-width: 100%;
+}
+.footer_bg_img{
+  padding: 230px 0 50px 0;
+  background: url(../../../../assets/images/theme3/footer.jpeg) no-repeat scroll center center / cover;
+}
+
+@media (max-width: 1400px) {
+  .footer_bg_img {
+    padding: 178px 0 54px 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header_bg_img{
+    padding: 130px 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header_bg_img{
+    padding: 90px 20px;
+  }
+  .them_text_26 {
+    font-size: 22px;
+  }
+  .theme_text_40 {
+    font-size: 32px;
+  }
+  .footer_bg_img {
+    padding: 100px 0px 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header_img_left img {
+    max-width: 100px;
+    max-height: 125px;
+  }
+  .contact_area .container{
+    width: 96%;
+  }
+  .theme_chart ul li {
+    font-size: 18px;
+  }
+  .them_text_26 {
+    font-size: 18px;
+  }
+  .theme_text_40 {
+    font-size: 26px;
+  }
+  .them_text_16 {
+    padding: 2px 16px;
+  }
+  .save_btn {
+    padding: 2px 16px;
+  }
+  .theme3_icon {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header_bg_img {
+    padding: 56px 20px;
+  }
+  .header_social_icon {
+    margin-top: 10px;
+  }
+  .header_area .container,
+  .footer_area .container{
+    --bs-gutter-x: 0rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .header_contain {
+    justify-content: start;
+    gap: 16px;
+  }
+  .header_bg_img {
+    padding: 40px 16px;
+  }
+  .header_img_left::after {
+    top: -4px;
+    right: -4px;
+    height: 4px;
+  }
+  .header_img_left::before {
+    right: -4px;
+    width: 4px;;
+  }
+  .header_social_icon {
+    margin: 16px 0 0 80px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 367px) {
+  .text_18 {
+    font-size: 14px;
+  }
+  .theme_text_40 {
+    font-size: 22px;
+  }
+}
