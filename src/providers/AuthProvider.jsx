@@ -4,7 +4,7 @@ import {
   createUserWithEmailAndPassword,
   getAuth,
   onAuthStateChanged,
-  signInWithEmailAndPassword,
+  signInWithEmailAndPassword, 
   signInWithPopup,
   signOut,
   updateProfile,
